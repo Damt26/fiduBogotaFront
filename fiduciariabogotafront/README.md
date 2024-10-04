@@ -48,3 +48,18 @@ export default tseslint.config({
   },
 })
 ```
+## Generar imagen docker
+
+En la carpeta raíz ejecutar:
+
+```shell
+docker build -t fiduciariabgotafrontimg . 
+```
+
+## Generar DockerCompose
+
+En la carpeta raíz del proyecto backend ejecutar:
+```shell
+docker compose up
+```
+
